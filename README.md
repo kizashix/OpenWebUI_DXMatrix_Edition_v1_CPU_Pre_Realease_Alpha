@@ -1,4 +1,5 @@
 🚀 Open Web UI - DXMatrix v1.0.1 – CPU-only Windows Native Build (Latest Pre-release)
+
 A lightweight, CPU-only, Windows 11 native build of Open WebUI, reimagined for DXMatrix-style workflows.
 
 💡 What is DXMatrix Edition?
@@ -18,9 +19,6 @@ This is a zero-dependency, offline-first fork of Open WebUI designed for:
 🔐 Default Admin Login
 Use the following credentials to log in:
 
-makefile
-Copy
-Edit
 Username: DXM@Matrix.com
 Name: admin
 Password: admin123
@@ -35,9 +33,8 @@ Password: admin123
 From the root folder:
 
 bash
-Copy
-Edit
 ./start-both-servers.bat
+
 This will:
 
 ✅ Launch the backend with Uvicorn
@@ -50,8 +47,6 @@ Visit: http://localhost:8000
 
 🧰 Manual Setup (Optional)
 bash
-Copy
-Edit
 # Extract the ZIP
 cd .\DXMatrix-Win11-1.0.1_CPU
 
@@ -68,12 +63,10 @@ uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 Open new terminal for frontend:
 
 powershell
-Copy
-Edit
 # From project root
 npm install
 npm run dev
-Frontend runs at: http://localhost:3000
+Frontend runs at: http://localhost:5173
 
 🧪 Feature Comparison (vs Upstream)
 Feature	DXMatrix Edition
@@ -87,17 +80,15 @@ DXMatrix workflow optimized	✅
 👥 Credits & Acknowledgments
 Forked from @tjbck's Open WebUI. This edition is retooled for Windows-native, no-dependency, power users.
 
-text
-Copy
-Edit
 ╔════════════════════════════════════╗
-║        🧠 DXMatrix by @kizashix      ║
+║        🧠 DXMatrix by @kizashix    ║
 ║ 💜 https://matrixlogiclabs.com     ║
 ║ 📩 ammar@ag38.me                   ║
 ║ 📩 ag@ag38.me                      ║
 ║ 📬 dxm.matrix@gmail.com            ║
 ║ 📬 dx.matrix@outlook.com           ║
 ╚════════════════════════════════════╝
+
 Let's make AI personal, fast, and hacker-friendly again ⚡
 
 📜 Full Changelog:
