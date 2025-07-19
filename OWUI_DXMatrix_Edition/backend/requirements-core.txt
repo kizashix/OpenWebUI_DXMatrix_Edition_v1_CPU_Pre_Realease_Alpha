@@ -1,0 +1,70 @@
+# Open WebUI DXMatrix Edition - Core Requirements
+# Essential dependencies for Windows-native operation
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Configuration and Environment
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Security and Authentication
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+cryptography==41.0.7
+
+# HTTP and API
+httpx==0.25.2
+requests==2.31.0
+
+# Data Processing
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Logging and Monitoring
+structlog==23.2.0
+colorama==0.4.6
+
+# File Handling
+aiofiles==23.2.1
+
+# Image Processing (for file uploads)
+Pillow==10.1.0
+
+# JSON and Data Serialization
+orjson==3.9.10
+
+# Date and Time
+python-dateutil==2.8.2
+
+# Windows-specific dependencies
+pywin32==306; sys_platform == "win32"
+psutil==5.9.6
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Code Quality
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.4.8
+
+# WebSocket support
+websockets==12.0
+
+# Monitoring and metrics
+prometheus-client==0.19.0
+
+# Email support
+aiosmtplib==3.0.1
+
+# Development tools
+ipython==8.17.2 
