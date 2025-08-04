@@ -1,8 +1,12 @@
-
 ☕ Support My Work
+
+
 If you found this project useful, consider buying me a coffee to fuel more DXMatrix drops and open-source magic!
 
+
 <p align="center"> <a href="https://buymeacoffee.com/dxmatrix" target="_blank"> <img width="400" height="400" alt="Buy Me a Coffee" src="https://github.com/user-attachments/assets/96ddfefc-b500-49cf-9ca7-dc8e8d1ff03d" /> </a> </p>
+
+
 Your support keeps this project thriving 💜
 
 
